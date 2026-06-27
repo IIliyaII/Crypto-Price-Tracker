@@ -1,5 +1,7 @@
 import os
 import sys
+from doctest import master
+
 import requests
 
 BASE_URL = "https://api.freecryptoapi.com/v1"
@@ -110,3 +112,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
